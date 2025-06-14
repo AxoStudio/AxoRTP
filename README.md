@@ -1,40 +1,45 @@
-AxoRTP to plugin do Minecrafta umożliwiający losową teleportację graczy na bezpieczne lokalizacje z intuicyjnym GUI, indywidualnymi cooldownami i integracją z PlaceholderAPI.
-Funkcjonalności
+# AxoRTP to plugin do Minecrafta umożliwiający losową teleportację graczy na bezpieczne lokalizacje z intuicyjnym GUI, indywidualnymi cooldownami i integracją z PlaceholderAPI.
 
-Losowa teleportacja: Trzy opcje RTP (#1, #2, #3) z różnymi odległościami (500, 1000, 1500 kratek).
+# Funkcjonalności
 
-Intuicyjne GUI: Wybór opcji RTP za pomocą interfejsu graficznego (/rtp).
+## Losowa teleportacja: Trzy opcje RTP (#1, #2, #3) z różnymi odległościami (500, 1000, 1500 kratek).
 
-Cooldowny: Konfigurowalne czasy oczekiwania dla każdej opcji RTP (domyślnie 300, 600, 900 sekund).
+## Intuicyjne GUI: Wybór opcji RTP za pomocą interfejsu graficznego (/rtp).
 
-Bezpieczne lokalizacje: Teleportacja tylko na powierzchnię, na bezpieczne bloki (np. trawa, kamień).
+## Cooldowny: Konfigurowalne czasy oczekiwania dla każdej opcji RTP (domyślnie 300, 600, 900 sekund).
 
-Integracja z PlaceholderAPI: Placeholdery: %axortp_rtp1_cooldown%, %axortp_rtp2_cooldown%, %axortp_rtp3_cooldown%, %axortp_cooldown%.
+## Bezpieczne lokalizacje: Teleportacja tylko na powierzchnię, na bezpieczne bloki (np. trawa, kamień).
 
-Wymagania
+# Placeholdery: 
+- %axortp_rtp1_cooldown% 
+- %axortp_rtp2_cooldown% 
+- %axortp_rtp3_cooldown%
+- %axortp_cooldown%
+
+# Wymagania
 
 Serwer: Minecraft 1.20.4 (Spigot/Paper).
 Wtyczki: PlaceholderAPI (wymagany).
 Java: Wersja 8 lub nowsza.
 
-Instalacja
+# Instalacja
 
 Pobierz plik AxoRTP-1.0-SNAPSHOT.jar.
 Umieść go w folderze plugins/ na serwerze..
 Uruchom serwer, aby wygenerować plik config.yml.
 
-Komendy i permisje
+# Komendy i permisje
+## Komendy
+- /rtp Wyświetla gui ze RTP
+- /axortp reload Przeładowywuje config.yml
+## Permisje:
+- axortp.rtp2: Dostęp do RTP #2 (domyślnie dla operatorów).
+- axortp.rtp3: Dostęp do RTP #3 (domyślnie dla operatorów).
+- axortp.reload: Przeładowanie konfiguracji (domyślnie dla operatorów).
 
-/rtp: Otwiera GUI teleportacji (dostępne dla wszystkich graczy).
-/axortp reload: Przeładowuje konfigurację (permisja: axortp.reload, domyślnie dla operatorów).
-Permisje:
-axortp.rtp2: Dostęp do RTP #2 (domyślnie dla operatorów).
-axortp.rtp3: Dostęp do RTP #3 (domyślnie dla operatorów).
-axortp.reload: Przeładowanie konfiguracji (domyślnie dla operatorów).
 
 
-
-Konfiguracja
+# Konfiguracja
 Plik config.yml pozwala na dostosowanie:
 
 Odległości i cooldownów dla RTP #1, #2, #3.
@@ -42,9 +47,8 @@ Materiałów i opisów w GUI.
 Bezpiecznych i niebezpiecznych bloków.
 Komunikatów (np. tytuły, podtytuły, cooldowny).
 
-Autor
+# Autor:
+- AxoPL777
 
-AxoPL777
-
-Wsparcie
+# Wsparcie
 W przypadku problemów skontaktuj się z autorem lub dołącz na discorda (dc.axostudio.pl).
