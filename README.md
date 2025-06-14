@@ -1,5 +1,5 @@
 AxoRTP
-AxoRTP to plugin do Minecrafta umożliwiający losową teleportację graczy na bezpieczne lokalizacje z intuicyjnym GUI, indywidualnymi cooldownami i integracją z PlaceholderAPI.
+to plugin do Minecrafta umożliwiający losową teleportację graczy na bezpieczne lokalizacje z intuicyjnym GUI, indywidualnymi cooldownami i integracją z PlaceholderAPI.
 Funkcjonalności
 
 Losowa teleportacja: Trzy opcje RTP (#1, #2, #3) z różnymi odległościami (500, 1000, 1500 kratek).
