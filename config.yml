@@ -1,0 +1,41 @@
+rtp1:
+  material: GRASS_BLOCK
+  name: "&aRTP #1"
+  lore:
+    - "&7Teleportuje na losowe kordy w odległości 500 kratek"
+  distance: 500
+  cooldown: 300 # Cooldown dla RTP #1 w sekundach
+rtp2:
+  material: STONE
+  name: "&bRTP #2"
+  lore:
+    - "&7Teleportuje na losowe kordy w odległości 1000 kratek"
+  distance: 1000
+  permission: "axortp.rtp2"
+  cooldown: 600 # Cooldown dla RTP #2 w sekundach
+rtp3:
+  material: DIAMOND_BLOCK
+  name: "&cRTP #3"
+  lore:
+    - "&7Teleportuje na losowe kordy w odległości 1500 kratek"
+  distance: 1500
+  permission: "axortp.rtp3"
+  cooldown: 900 # Cooldown dla RTP #3 w sekundach
+countdown: 5 # Czas odliczania w sekundach dla wszystkich opcji
+messages:
+  teleporting_title: "&aZostaniesz przeleportowany"
+  teleporting_subtitle: "&7na losowe kordynaty za %seconds% sekund/y/e"
+  success_title: "&aPomyślnie przeleportowano"
+  success_subtitle: "&7Ciesz się nową lokalizacją!"
+  cooldown_message: "&cPozostało %axortp_cooldown%"
+  no_permission: "&cNie masz uprawnień do tej opcji!"
+safe_blocks:
+  - GRASS_BLOCK
+  - DIRT
+  - STONE
+  # Lista bloków, na których gracz może wylądować
+unsafe_blocks:
+  - LAVA
+  - WATER
+  - LEAVES
+  # Lista bloków, których należy unikać podczas teleportacji

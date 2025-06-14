@@ -1,0 +1,23 @@
+name: AxoRTP
+version: 1.0-SNAPSHOT
+main: com.axo.axortp.AxoRTP
+api-version: 1.20
+author: AxoPL777
+softdepend: [PlaceholderAPI]
+commands:
+  rtp:
+    description: Opens the RTP GUI
+    usage: /<command>
+  axortp:
+    description: Admin commands for AxoRTP
+    usage: /<command> reload
+permissions:
+  axortp.rtp2:
+    description: Allows access to RTP #2
+    default: op
+  axortp.rtp3:
+    description: Allows access to RTP #3
+    default: op
+  axortp.reload:
+    description: Allows reloading the plugin configuration
+    default: op
